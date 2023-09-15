@@ -1,0 +1,466 @@
+/* all page will start from point 0 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* setting font of the page and backround color */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: linear-gradient(#dc7070, #d46b6b);
+}
+
+/* design navebar  */
+.navbar {
+  margin: 0;
+  background-image: linear-gradient(#000000, #891212);
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+/* [arent to chiled having div inside the other div (<div classes class and navebar */
+.class .navbar {
+  width: 100%;
+  margin: 0;
+  background-image: linear-gradient(#000000, #891212);
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+
+/* adding the menu image  */
+.navbar img {
+  padding-left: 5px;
+  padding-right: 15px;
+  width: 50px;
+  height: 50px;
+}
+/* setiing the design for main home etc... */
+.navbar .links {
+  font-size: larger;
+  padding: 5px 5px;
+  display: flex;
+}
+/* setiing the design for ahref home etc... */
+
+.navbar a.link {
+  color: #d9c7c7;
+  padding: 10px;
+  font-size: larger;
+  text-decoration: none;
+}
+/* design of the section introduction calling the class */
+.introduction {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+/* this header used in many headers next you will be seeing the same design many times */
+.Introvid .header h1 {
+  background-image: linear-gradient(#e33a3a, #972a2a);
+  padding: 15px;
+  font-size: xx-large;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+/* design box containing the texts and the tables of details */
+.box {
+  position: relative;
+  max-width: 100%;
+  border: 3px solid #000000;
+  box-shadow: 10px 10px 20px 0 #dcdae0;
+  background-image: linear-gradient(#9a87be, #beafec);
+  border-radius: 10px;
+  padding: 35px;
+  font-size: x-large;
+}
+/* section of video and text */
+.pad {
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.biography .header h1 {
+  background-image: linear-gradient(#e33a3a, #972a2a);
+  padding: 15px;
+  font-size: xx-large;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.achievement .header h1 {
+  background-image: linear-gradient(#e33a3a, #972a2a);
+  padding: 15px;
+  font-size: xx-large;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.video {
+  max-width: 50%;
+  margin: 50px;
+  display: inline;
+}
+
+.achievement dl {
+  margin: 2;
+  padding: 2rem;
+/* padding for the space around the div or the attribute used  */
+}
+
+.achievement dt {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: x-large;
+}
+
+.achievement dd {
+  margin-left: 0;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  font-size: large; /*setting the font size for the data*/
+}
+
+h1 {
+  font-size: xx-large;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+h2 {
+  font-size: x-large;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.intfounder {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.1;
+  margin: 0;
+  max-width: 500px;
+  padding-right: 2rem;
+}
+
+.headline {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.1;
+  margin: 0;
+  max-width: 500px;
+  text-align: center;
+}
+
+.founder {
+  padding: 15px;
+}
+
+.imglatest {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.latbox {
+  padding: 15px;
+  border-color: #3d01d7;
+  border-radius: 50px;
+  align-content: center;
+}
+
+.latbox img {
+  padding: 2rem;
+  border-radius: 50%;
+  align-content: center;
+}
+/* the box where the details of all cars are in section latest cars and the mostexpensive etc... */
+.detailbox {
+  position: relative;
+  height: 100%;
+  border: 3px solid #000000;
+  background-image: linear-gradient(#d7d7d7, #666175);
+  border-radius: 20px;
+
+}
+
+th {
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+}
+/* used nth-child to split table in even and odd section where i can give each row or column depending tr or th or td how you divide them  */
+tr:nth-child(even) {
+  background-image: linear-gradient(#d7d7d7, #413072);
+}
+
+tr:nth-child(odd) {
+  background-image: linear-gradient (#35178e, #d7d7d7)
+}
+
+table {
+  max-width: 100%;
+  margin: 0;
+
+}
+/* image design the 50% give it a circlur form */
+.mostbox img {
+  padding: 1rem;
+  border-radius: 50%;
+  align-content: center;
+}
+/* design ass flex wrap so the width stay normal and when the page end the div goes down takes his place */
+.imgmost {
+  max-width: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  align-items: center;
+  height: 100%;/*setting height to 100% because the tables where bigger then the width og th page so it takes as much heigh she can from section so sections wont intersect*/
+}
+
+.mostdetail {
+  width: 100%;
+  border: 3px solid #000000;
+  background-image: linear-gradient(#d7d7d7, #666175);
+  border-radius: 20px;
+}
+
+.mostbox {
+  padding: 15px;
+
+}
+
+.container1 {
+  max-width: 100%;
+  padding-bottom: .8rem;
+}
+
+.container1 .header h1 {
+  font-size: 0px;
+  background-image: linear-gradient(#e33a3a, #972a2a);
+  padding: 15px;
+  font-size: xx-large;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.container2 {
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+.container2 .header h1 {
+  background-image: linear-gradient(#e33a3a, #972a2a);
+  padding: 15px;
+  font-size: xx-large;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 100%
+}
+
+.container3 .header h1 {
+  background-image: linear-gradient(#e33a3a, #972a2a);
+  padding: 15px;
+  font-size: xx-large;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 100%;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container4 .header h1 {
+  background-image: linear-gradient(#e33a3a, #972a2a);
+  padding: 15px;
+  font-size: xx-large;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 100%
+}
+
+ul {
+
+  list-style: square;
+  padding: 2rem;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #1b0808;
+}
+
+.link2 {
+  text-decoration: none;
+  font-size: xx-large;
+  color: #1b0808;
+}
+
+.listofm {
+  display: flex;
+  flex-direction: row;
+}
+
+.dealparagraph {
+  font-size: 18px;
+  color: #200f0f;
+  line-height: 1.5;
+  margin-bottom: 20px;
+
+}
+
+.contspecdeal {
+  max-width: 600px;
+  margin: 4;
+  padding: 2rem;
+}
+
+.contspecdeal .header h1 {
+  background-image: linear-gradient(#de7676, #972a2a);
+  padding: 15px;
+  font-size: xx-large;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+}
+
+.forsaledeal {
+  padding: 2rem;
+
+}
+
+.forsalelist li {
+  color: #beafec;
+  fill: #3d01d7;
+}
+
+.ulheadstyle {
+  color: white;
+}
+
+.ulstyle {
+  display: flex;
+  flex-direction: row;
+}
+
+.contfield {
+  display: flex;
+  flex-direction: row;
+}
+
+.sizelable {
+  font-size: x-large;
+}
+
+.rad1 {
+  padding-left: 5rem;
+  gap: 1rem;
+  font-size: x-large;
+}
+
+.rad2 {
+  padding-left: 5rem;
+  gap: 1rem;
+  font-size: x-large;
+}
+
+.color-select {
+  padding: 5px;
+  border-radius: 20px;
+  width: 110%;
+  text-align: center;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.fieldsetclass {
+  padding: 15px;
+}
+
+.downloadbutton {
+  text-align: center;
+  height: fit-content;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.but {
+  font-size: large;
+  border-radius: 28px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+/* since section footer called # and designed to be same as the navebar */
+#footer {
+  background-image: linear-gradient(#000000, #891212);
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+}
+
+.BMW {
+  flex: 1;
+  margin: 0;
+  padding: .5rem;
+}
+
+.BMW p {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  gap: 5px;
+}
+
+.BMW img {
+  width: 20px;
+  padding: .5rem;
+}
+
+a {
+  color: #858bf9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+}
